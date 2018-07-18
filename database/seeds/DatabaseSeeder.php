@@ -24,10 +24,10 @@ class DatabaseSeeder extends Seeder
 
         // Users
         $user = User::firstOrCreate(
-            ['email' => 'darthvader@deathstar.ds'],
+            ['email' => 'ety001@test.com'],
             [
-                'name' => 'anakin',
-                'password' => bcrypt('4nak1n')
+                'name' => 'ety001',
+                'password' => bcrypt('123456')
             ]
         );
 
