@@ -19,6 +19,12 @@ services:
     volumes:
       - ./:/application:cached
 
+  yoyow-middleware:
+    build: ./yoyow-middleware
+    image: yoyow-middleware
+    volumes:
+        - ./yoyow-middleware:/app/conf:cached
+
   mysql:
     image: mysql:5.7
     ports:

@@ -48,6 +48,11 @@ $ docker-compose run yoo-server php artisan tinker
 > PrepareNewsletterSubscriptionEmail::dispatch();
 ```
 
+Edit YOYOW middleware config :
+```
+$ vim yoyow-middleware/config.js
+```
+
 ## Useful commands
 Seeding the database :
 ```
