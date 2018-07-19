@@ -15,3 +15,4 @@ public/media/
 /storage/medialibrary
 /log
 public/vendor/
+/yoyow-middleware/config.js.dev
