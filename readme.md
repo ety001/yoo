@@ -105,7 +105,7 @@ Do not forget to set the ```X-Requested-With``` header to ```XMLHttpRequest```. 
 To list all the available routes for API :
 
 ```bash
-$ docker-compose run --rm --no-deps blog-server php artisan route:list --path=api
+$ docker-compose run --rm --no-deps yoo-server php artisan route:list --path=api
 ```
 
 ## License
